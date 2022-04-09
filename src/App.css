@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.Carousel {
+  height: 100vh;
+  padding: 3em;
+  color: #000;
+}
+
+ul.flex-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-conten: space-around;
+  padding: 0;
+  margin: 0;
+  flex-flow: center;
+}
+
+il.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+}
+
+.iframe {
+  height: 100vh;
+  padding: 3em;
+}
+
+.element {
+  height: 100vh;
+  padding: 3em;
+  color: #fff;
+}
+
+.element:nth-of-type(1) {
+  background: black;
+}
+
+.element:nth-of-type(2) {
+  background: green;
+}
+
+.element:nth-of-type(3) {
+  background: blue;
+}
+
+a {
+  display: inline-block;
+  margin: 2em 0;
+  padding: 0 2em;
+}
